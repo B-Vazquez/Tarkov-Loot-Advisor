@@ -1,0 +1,49 @@
+# Java / Maven
+/target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# Angular / Node.js (frontend/)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/
+/frontend/coverage/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+._*
+
+# Local database and uploaded-file data
+/data/
+/uploads/
+
+# Other files
+Tarkov-Loot-Advisor-Project-Plan.md
+Tax-Formula
+HELP.md
